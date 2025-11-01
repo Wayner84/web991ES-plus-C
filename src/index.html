@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Casio fx-991ES Plus C</title>
+  <link rel="manifest" href="../manifest.json" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div id="app" class="calculator">
+    <div class="calculator__bezel">
+      <header class="calculator__branding">
+        <span class="branding__series">CASIO</span>
+        <span class="branding__model">fx-991ES Plus C</span>
+        <span class="branding__power">TWO WAY POWER</span>
+      </header>
+      <main class="calculator__body">
+        <section class="display">
+          <canvas id="lcd" width="420" height="160" aria-label="Calculator screen"></canvas>
+        </section>
+        <section class="keypad" id="keypad" aria-label="Calculator keypad"></section>
+      </main>
+    </div>
+  </div>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
