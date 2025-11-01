@@ -1,0 +1,9 @@
+{
+  "name": "Casio fx-991ES Plus C Emulator",
+  "short_name": "fx-991ES+",
+  "start_url": "./src/index.html",
+  "display": "standalone",
+  "background_color": "#0d141c",
+  "theme_color": "#0d141c",
+  "icons": []
+}
